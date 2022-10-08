@@ -20,7 +20,7 @@ plt.style.use('classic')
 
 plt.xlabel('Distancia a la pantalla [m]')
 plt.ylabel('Separación entre los máximos de interferencia [m]')
-plt.plot(D,X) #ta raro
+plt.scatter(D,X) #ta raro
 plt.grid(True)
 plt.savefig("experimento_2.jpg")
 

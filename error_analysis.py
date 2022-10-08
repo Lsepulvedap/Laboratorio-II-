@@ -26,12 +26,6 @@ plt.scatter(Datos[:,3], Datos[:,4], color='green') #datos de la segunda medició
 #hice que los máximos se separaran en diagonal; observé que se cambiaba la orientación de los máximos
 #a medida que alejaba el disco de la pantalla, por lo que fue mas difícil de medir
 
-plt.style.use('classic')
-plt.xlabel('Distancia a la pantalla [m]')
-plt.ylabel('Separación entre los máximos [m]')
-#plt.legend()
-plt.grid()
-plt.savefig("Experimento_1.jpg")
 #-------------------------------------------------------------------------------------------------------
 
 #CALCULAMOS LA DISTANCIA ENTRE LOS SURCOS'd' usando la fórmula d=\frac{\lambda}{\sin(\theta)}
@@ -45,6 +39,13 @@ D_2= Datos[:,3]
 x_1=Datos[:,1]
 x_2=Datos[:,4]
 
+plt.style.use('classic')
+plt.xlabel('Distancia a la pantalla [m]')
+plt.ylabel('Separación entre los máximos [m]')
+
+#plt.legend()
+plt.grid()
+plt.savefig("Experimento_1.jpg")
 
 
 
