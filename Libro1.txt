@@ -1,0 +1,14 @@
+incidente	refractado 
+65	68
+70	74
+75	78
+80	84
+85	86
+90	88
+95	97
+100	88
+105	102
+110	106
+
+Este archivo muestra los angulos incidente y refractado para un haz de luz
+roja que atraviesa un medio acuoso. 
